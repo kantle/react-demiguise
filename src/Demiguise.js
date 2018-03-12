@@ -112,7 +112,7 @@ class Demiguise extends Component {
   }
 }
 
-Demiguise.propTypes = {
+/*Demiguise.propTypes = {
   delay: PropTypes.oneOfType([
     PropTypes.number,
     PropTypes.arrayOf(PropTypes.number),
@@ -120,7 +120,7 @@ Demiguise.propTypes = {
   loop: PropTypes.bool,
   messages: PropTypes.arrayOf(PropTypes.string),
   onLoopEnd: PropTypes.func,
-};
+};*/
 Demiguise.defaultProps = {
   delay: 3000,
   loop: false,
